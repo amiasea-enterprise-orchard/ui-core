@@ -1,0 +1,11 @@
+@Amiasea.Tannin.Ui.Core_HostAddress = http://localhost:5154
+
+GET {{Amiasea.Tannin.Ui.Core_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{Amiasea.Tannin.Ui.Core_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
